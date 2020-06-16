@@ -1,0 +1,17 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "No tooling starter",
+    "main": "public/index.js",
+    "module": "public/index.js",
+    "scripts": {
+      "build": "echo 'add future build step here'",
+      "dev": "echo 'add future dev step here'"
+    },
+    "files": [
+      "public"
+    ],
+    "author": "Terkel Gjervig <terkel@terkel.com>",
+    "repository": "terkelg/starter",
+    "license": "MIT"
+  }
