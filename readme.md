@@ -1,3 +1,5 @@
+![](https://repository-images.githubusercontent.com/272579351/bf04cd80-af57-11ea-8580-9aef169d78ab)
+
 # Starter
 > Simplicity is the ultimate sophistication.
 
