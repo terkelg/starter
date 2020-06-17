@@ -9,9 +9,24 @@ You can use all the latest JavaScript features, like `async`/`await` and ESM mod
 
 ## Tooling
 
-Need TypeScript/Babel/SCSS? Add a `src` folder for your source files and have tools output to `public`.
+>**OBS**: You probably don't need tooling in the beginning!
 
-Another option is to use [unpkg](http://unpkg.com).
+In case you need TypeScript/Babel/SCSS/Whatever, add a `src` folder and have the tools output to `public`.
+
+Another option is to copy/paste snippets or use [unpkg](http://unpkg.com). 
+
+
+## Fast Google Fonts
+
+If you use Google Fonts use the following snippet in the `head` to load fonts
+fast. Replace `[url]` with the actual font url. Read [The Fastest Google Fonts](https://csswizardry.com/2020/05/the-fastest-google-fonts/) for further explanation.
+
+```html
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style" href="[URL]&display=swap" />
+<link rel="stylesheet" href="[URL]&display=swap" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="[URL]&display=swap" /></noscript>
+```
 
 
 # License
